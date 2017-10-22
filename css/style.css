@@ -1,0 +1,90 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+body{
+    font-family: 'Roboto', 'Noto Sans TC', Microsoft JhengHei, sans-serif;
+}
+a{
+    color: #68A326;
+}
+
+a:hover{
+    color: #68A326;
+}
+
+.vh-100{
+    height: 100%;
+    position: fixed;
+    background: rgba(184, 233, 134, 0.12);
+    width: 20%;
+}
+.fixed{
+    position: fixed;
+}
+
+.spyme{
+    position: relative;
+    padding-right: 1em;
+}
+
+a.nav-link{
+    color: #68A326;
+}
+
+h4.subtitle{
+    color: #68A326;
+}
+
+p.content, ul.content{
+    color: #666;
+}
+
+p.title{
+    color: #555;
+}
+p.tool{
+    color: #7F9368;
+}
+p.h5{
+    color: #666;
+}
+
+#navbar-example3 a.active{
+    background: #68A326;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .col-3{
+        display: none;
+    }
+ }
+@media screen and (max-width:768px) {
+    .spyme img{
+        margin:0 auto;
+        display: block;
+    }
+}
+
+.col-12 > a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: relative;
+} 
+
+.col-12 > a:before{
+    display: none;
+    content: url(../img/link.png);
+    text-align: center;
+    line-height: 12rem;
+    background: rgba(000, 000, 000, 0.4);
+    color: #fff;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.col-12 > a:hover:before{
+    display: block;
+}
