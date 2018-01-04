@@ -1,6 +1,11 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
 body{
     font-family: 'Roboto', 'Noto Sans TC', Microsoft JhengHei, sans-serif;
+    line-height: 1.7em;
+}
+
+ul{
+    padding-left:20px; 
 }
 a{
     color: #68A326;
@@ -42,6 +47,9 @@ p.title{
 }
 p.tool{
     color: #7F9368;
+}
+.font-default{
+    color: #666;
 }
 p.h5{
     color: #666;
