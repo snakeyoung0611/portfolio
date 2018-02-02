@@ -115,3 +115,7 @@ a.image:hover:before, a.image:hover > .text{
   opacity: 0;
   z-index: 10;
 }
+
+p.font-default > span {
+    color: green;
+}
