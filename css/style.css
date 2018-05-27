@@ -119,3 +119,7 @@ a.image:hover:before, a.image:hover > .text{
 p.font-default > span {
     color: green;
 }
+
+.font-green{
+    color: #68A326;
+}
